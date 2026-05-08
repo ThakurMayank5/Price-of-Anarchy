@@ -1,9 +1,6 @@
 # Pigou Network using NetworkX
 
-try:
-    import networkx as nx
-except ImportError as exc:
-    raise SystemExit("Install networkx with: pip install networkx") from exc
+import networkx as nx
 
 DEMAND = 1.0
 
