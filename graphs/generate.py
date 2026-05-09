@@ -33,10 +33,31 @@ if __name__ == "__main__":
     plt.title("Grid Graph")
 
     plt.subplot(1, 3, 2)
-    nx.draw(random_graph, with_labels=True, node_color='lightgreen', edge_color='gray')
+
+    pos = nx.spring_layout(random_graph)
+
+    nx.draw(random_graph, pos=pos, with_labels=True, node_color='lightgreen', edge_color='gray')
     plt.title("Random Graph")
 
     plt.subplot(1, 3, 3)
     nx.draw(scale_free_graph, with_labels=True, node_color='lightcoral', edge_color='gray')
     plt.title("Scale-Free Graph")
     plt.show()
+
+    # G = nx.erdos_renyi_graph(15, 0.2, directed=True)
+
+    # pos = nx.spring_layout(G, seed=42)
+
+    # flows = []
+    # for edge in G.edges():
+    #     flows.append(G.edges[edge].get("flow", 1))
+
+    # nx.draw(
+    #     G,
+    #     pos,
+    #     with_labels=True,
+    #     width=flows,
+    #     arrows=True
+    # )
+
+    # plt.show()
