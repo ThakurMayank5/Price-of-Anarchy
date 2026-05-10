@@ -1,3 +1,9 @@
+# Custom Exclusions
+
+Experiment1/results/edge_flows.csv
+Experiment1/results/convergence.csv
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
