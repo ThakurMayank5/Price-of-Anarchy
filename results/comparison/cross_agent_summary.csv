@@ -1,0 +1,10 @@
+algorithm,network,selfish_poa,final_poa,poa_change,pct_change,direction,nash_type
+ε-Greedy,Pigou,1.3333,1.2711,-0.0622,-4.67,Improved,Tight-bound
+ε-Greedy,Braess,1.3333,1.2913,-0.042,-3.15,Improved,Tight-bound
+ε-Greedy,ER Graph,1.0006,1.0267,0.0261,2.61,Degraded,Near-optimal
+UCB,Pigou,1.3333,1.1824,-0.1509,-11.32,Improved,Tight-bound
+UCB,Braess,1.3333,1.1291,-0.2042,-15.32,Improved,Tight-bound
+UCB,ER Graph,1.0006,2.0971,1.0965,109.58,Degraded,Near-optimal
+Thompson Sampling,Pigou,1.3333,1.288,-0.0453,-3.4,Improved,Tight-bound
+Thompson Sampling,Braess,1.3333,1.2614,-0.0719,-5.39,Improved,Tight-bound
+Thompson Sampling,ER Graph,1.0006,1.042,0.0414,4.14,Degraded,Near-optimal
