@@ -104,6 +104,3 @@ python generate_summary_table.py
 
 Python · NetworkX · NumPy · Pandas · Matplotlib · tqdm
 
-## License
-
-MIT — see [LICENSE](LICENSE). 
