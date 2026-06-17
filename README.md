@@ -2,19 +2,20 @@
 
 An empirical study of the **Price of Anarchy (PoA)** in traffic routing games — combining classical Frank-Wolfe traffic assignment with multi-armed bandit reinforcement learning agents, across multiple network topologies (Pigou, Braess, grid, Erdős–Rényi, and Barabási-Albert scale-free graphs).
 
-NTCC Summer Project, 2026.
 
 ---
 
 ## What this project does
 
-The Price of Anarchy measures how much worse a system performs when agents act selfishly (Nash/Wardrop equilibrium) compared to a centrally coordinated optimum (social optimum). This project:
+The Price of Anarchy measures how much worse a system performs when agents act selfishly (Nash/Wardrop equilibrium) compared to a centrally coordinated optimum (social optimum). 
+
+This project:
 
 1. **Computes Wardrop equilibria and social optima** on synthetic road networks using Frank-Wolfe traffic assignment, with both linear and BPR latency functions.
 2. **Introduces bandit-learning agents** (ε-Greedy, UCB1, Thompson Sampling) into classic congestion-game test cases — Pigou and Braess networks — to study how individual learning dynamics shift the system away from or toward the selfish equilibrium.
 3. **Measures how PoA responds** as the fraction of bandit-driven agents increases from 0% to 100%, and compares all three algorithms head-to-head.
 
-## Key finding
+## Key findings
 
 The effect of introducing learning agents into a congestion game **depends entirely on how inefficient the starting equilibrium already is**:
 
