@@ -39,7 +39,7 @@ Full writeup with all five findings and the complete results table: [`results/co
 ├── Pigou-Network/             Classic two-link Pigou network: brute-force,
 │                              Nash equilibrium, social optimum, PoA computation
 │
-├── Experiment2/                ε-Greedy bandit agent on Pigou & Braess networks
+├── Experiment2/         ε-Greedy bandit agent on Pigou & Braess networks
 ├── Experiment3/                UCB1 bandit agent on Pigou & Braess networks
 ├── Experiment4/                Thompson Sampling (Normal-Inverse-Gamma prior) agent
 │                                on Pigou & Braess networks
